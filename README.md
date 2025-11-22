@@ -20,7 +20,7 @@ via the TourSolution class
 
 
 # Project Structure
-File	                      Description
+
 InputData.py	              Loads JSON instances, creates nodes, computes distance matrix. 
 
 ConstructiveHeuristic.py	  Framework + multiple heuristics for building start tours. 
