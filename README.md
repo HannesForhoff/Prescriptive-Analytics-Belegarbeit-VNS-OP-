@@ -3,7 +3,7 @@
 This project implements a Variable Neighborhood Search (VNS) metaheuristic to solve a variant of the Orienteering Problem (OP).
 The goal is to construct a tour that maximizes collected score while respecting a global time limit.
 
-#Core Features
+# Core Features
 Multiple constructive heuristics for generating diverse start solutions
 (e.g., greedy, best insertion) 
 
@@ -19,7 +19,7 @@ via the TourSolution class
 
 
 
-#Project Structure
+# Project Structure
 File	                      Description
 InputData.py	              Loads JSON instances, creates nodes, computes distance matrix. 
 
@@ -33,7 +33,7 @@ StartSolutionSelector.py	  Chooses the best initial solution from several heuris
 
 VNS.py	                    Full implementation of the Variable Neighborhood Search including solution pool and restarts. 
 
-#How does it work ?
+# How does it work ?
 Load instance via InputData.
 Generate start solution using one or multiple heuristics.
 Run VNS:
@@ -43,7 +43,7 @@ Run VNS:
   Restart intelligently when stagnating
 Return best found tour under the time limit.
 
-#Use Case
+# Use Case
 This project was developed as part of a university assignment to compare constructive heuristics and design an effective VNS framework for NP-hard routing problems.
 
 
